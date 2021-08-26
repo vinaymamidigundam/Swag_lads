@@ -1,6 +1,6 @@
 class Swage_log_in:
     """
-
+    by using the x_path
     """
     lon_in_xpath = "//input[@placeholder='Username']"
     password_xpath = "//input[@placeholder='Password']"
