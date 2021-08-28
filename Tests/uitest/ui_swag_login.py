@@ -1,3 +1,6 @@
+"""
+    this file is used for the to test the ui_test cases
+"""
 from PageActions.commonfuctions import Log_in
 from PageObject.swag_obj import Swage_log_in
 import yaml

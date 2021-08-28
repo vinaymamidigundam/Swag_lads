@@ -1,3 +1,6 @@
+"""
+this file is for define class and functions
+"""
 from selenium import webdriver
 
 
@@ -7,10 +10,14 @@ from selenium.webdriver.common.by import By
 
 class Log_in:
     """
-    Firsh we created the class for flowing functions
+        this class is used for the flowing functions
     """
 
     def __init__(self):
+        """
+            this function will do   -
+                - inti the browser
+        """
         self.browser = webdriver.Chrome("/home/vinay/selenium/chromedriver")
 
     def open_url(self, url):
@@ -23,6 +30,8 @@ class Log_in:
 
     def click_on_inputs_send_keys(self, x_path, value):
         """
+                this function will do   -
+                    - select the element by use of x_path and enter the input value
 
         :param x_path:we find the x_path what we need
         :param value:give the value as requirement by help of yaml file
@@ -32,7 +41,8 @@ class Log_in:
 
     def click_on_element(self, x_path):
         """
-
+                this function well do   -
+                    - select the element by use of x_path
         :param x_path: only for x-path
         :return:root to x_path
         """
@@ -40,7 +50,8 @@ class Log_in:
 
     def maximize (self):
         """
-        this function is used
+                this function well do   -
+                    maximize the window
         :return:
         """
         self.browser.maximize_window()

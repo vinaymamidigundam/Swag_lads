@@ -1,6 +1,9 @@
+"""
+        this file is create for the x_path
+"""
 class Swage_log_in:
     """
-    by using the x_path
+        this class id used for x_path
     """
     lon_in_xpath = "//input[@placeholder='Username']"
     password_xpath = "//input[@placeholder='Password']"
